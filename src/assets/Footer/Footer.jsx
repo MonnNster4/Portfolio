@@ -5,7 +5,7 @@ import { TbNoCopyright } from "react-icons/tb";
 function Footer() {
   return (
     <>
-      <div className="flex flex-col gap-8 p-16 bg-slate-600 text-white justify-end">  {/*h-[46.7rem]*/}
+      <div className="flex flex-col gap-8 p-16 bg-primary text-white justify-end dark:bg-white dark:text-black" >  {/*h-[46.7rem]*/}
         <div className="flex justify-center gap-4 ">
           <FaGithub />
           <FaGithub />

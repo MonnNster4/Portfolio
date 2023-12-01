@@ -13,7 +13,7 @@ function Contact() {
           </p>
         </div>
         <div className="flex justify-start">
-          <div className="flex gap-4 justify-center items-center w-52 h-14 bg-black text-white">
+          <div className="flex gap-4 justify-center items-center w-52 h-14 bg-black text-white dark:bg-slate-800 dark:text-white">
             <h5 className="uppercase text-sm">Email me</h5>
             <IoIosArrowForward />
           </div>

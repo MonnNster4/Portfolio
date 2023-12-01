@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { FramerContainer, navItem } from "../FramerMotion/NavAnimation";
 
 function About() {
   return (
     <>
-      <div>
+      <motion.div variants={FramerContainer} initial="hidden" animate="visible" className="bg-white dark:bg-slate-800 dark:text-white">
         <div className="flex flex-col gap-5 px-14 pt-24 ">
-          <h1 className="flex justify-start text-3xl uppercase font-semibold">
+          <motion.h1 variants={navItem} className="flex justify-start text-3xl uppercase font-semibold">
             About Me
-          </h1>
+          </motion.h1>
           <p className="leading-10 ">
             I am 23 years old and recently graduated from college, obtaining a
             bachelor's degree in Information Technology from STI Las Pinas
@@ -27,7 +29,7 @@ function About() {
             chai and Redux for state management in React.
           </p>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
