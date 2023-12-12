@@ -5,6 +5,7 @@ import About from "./assets/About/About";
 import Projects from "./assets/Projects/Projects";
 import Contact from "./assets/Contact/Contact";
 import Footer from "./assets/Footer/Footer";
+import Sample from "./assets/Sample/Sample";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
+        {/* <Sample /> */}
       </div>
     </>
   );
