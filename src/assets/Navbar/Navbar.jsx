@@ -25,7 +25,7 @@ function Navbar() {
 
   const user = {
     name: "Hello",
-    image: "./src/img/student1.png",
+    image: "./static/img/student1.png",
   };
 
   return (
@@ -158,7 +158,7 @@ function Navbar() {
           </div>
 
           <div className="w-full h-auto flex justify-center lg:items-center  lg:pb-16">
-            <img className="w-52 lg:w-72" src={user.image} />
+            <img className="w-52 lg:w-72" src={user.image} alt=""/>
           </div>
         </div>
       </motion.div>
