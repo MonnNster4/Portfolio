@@ -25,7 +25,7 @@ function Navbar() {
 
   const user = {
     name: "Hello",
-    image: "./src/img/student1.png",
+    image: "./static/img/student1.png",
   };
 
   return (
