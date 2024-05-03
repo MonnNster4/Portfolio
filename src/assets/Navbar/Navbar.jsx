@@ -42,7 +42,7 @@ function Navbar() {
         <motion.div className="flex gap-4">
           <motion.button variants={navItem} onClick={handleThemeChange}>
             {theme === "dark" ? (
-              <MdLightMode  /> //className={`${bar ? "sm:text-black" : "sm:text-white"}`}
+              <MdLightMode /> //className={`${bar ? "sm:text-black" : "sm:text-white"}`}
             ) : (
               <MdOutlineDarkMode className="" />
             )}
@@ -52,109 +52,114 @@ function Navbar() {
           </motion.button>
         </motion.div>
       </motion.div>
+
       <motion.div
         variants={FramerContainer}
         initial="hidden"
         animate="visible"
         className="lg:flex lg:max-w bg-slate-100 dark:bg-slate-900 dark:text-white"
       >
-        <div className="lg:max-w-xl">
-          <div className="flex flex-col p-16 gap-4">
-            <motion.h1 variants={navItem} className="font-bold text-2xl">
-              YNW Melly
-            </motion.h1>
-            <motion.h5 variants={navItem} className="">
-              Rapper Artist
-            </motion.h5>
-            <motion.p variants={navItem} className="leading-8">
-              Jamell Maurice Demons, known professionally as YNW Melly, is an
-              American rapper and singer from Gifford, Florida. He rose to fame
-              in 2018 following the commercial release of his single "Murder on
-              My Mind", a trap song which explores homicidal ideation.
-            </motion.p>
-            <motion.div variants={navItem} className="flex gap-4">
-              <FaGithub />
-              <FaGithub />
-              <FaGithub />
-              <FaGithub />
-            </motion.div>
+        <div className="xl:max-w-screen-xl mx-auto   lg:flex py-20">
+          <div className="lg:max-w-xl">
+            <div className="flex flex-col p-16 gap-4">
+              <motion.h1 variants={navItem} className="font-bold text-2xl">
+                YNW Melly
+              </motion.h1>
+              <motion.h5 variants={navItem} className="">
+                Rapper Artist
+              </motion.h5>
+              <motion.p variants={navItem} className="leading-8">
+                Jamell Maurice Demons, known professionally as YNW Melly, is an
+                American rapper and singer from Gifford, Florida. He rose to
+                fame in 2018 following the commercial release of his single
+                "Murder on My Mind", a trap song which explores homicidal
+                ideation.
+              </motion.p>
+              <motion.div variants={navItem} className="flex gap-4">
+                <FaGithub />
+                <FaGithub />
+                <FaGithub />
+                <FaGithub />
+              </motion.div>
+            </div>
+
+            <div className="flex justify-center underline decoration-2">
+              <motion.h5 variants={navItem}>Stack</motion.h5>
+            </div>
+
+            <ul className="flex flex-wrap w-[calc(100%-2rem)] sm:w-[calc(75%-1rem)]:w-full  gap-4  justify-center  text-3xl  mt-8 xl:mt-0  xl:w-[calc(75%-2rem)] ">
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                <img className="h-10" src="./src/img/html.png" />
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                <img className="h-10" src="./src/img/css3.png" />
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                3
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                4
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                5
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                6
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                7
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                8
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400 "
+              >
+                9
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                10
+              </motion.li>
+              <motion.li
+                variants={navItem}
+                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+              >
+                11
+              </motion.li>
+            </ul>
           </div>
 
-          <div className="flex justify-center underline decoration-2">
-            <motion.h5 variants={navItem}>Tech Stack</motion.h5>
+          <div className="w-full h-auto flex justify-center lg:items-center  lg:pb-16">
+            <img className="w-52 lg:w-72" src={user.image} />
           </div>
-
-          <div className="grid grid-cols-4 gap-y-4 gap-x-4 p-14">
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              <img className="h-10" src="./src/img/html.png" />
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              <img className="h-10" src="./src/img/css3.png" />
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              3
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              4
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              5
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              6
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              7
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center"
-            >
-              8
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center ml-10"
-            >
-              9
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center ml-10"
-            >
-              10
-            </motion.div>
-            <motion.div
-              variants={navItem}
-              className="flex rounded-full bg-white w-12 h-12 justify-center items-center ml-10"
-            >
-              11
-            </motion.div>
-          </div>
-        </div>
-        <div className="w-full h-auto flex justify-center lg:items-center  lg:pb-16">
-          <img className="w-52 lg:w-72" src={user.image} />
         </div>
       </motion.div>
     </>
