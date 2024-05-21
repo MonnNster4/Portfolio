@@ -63,7 +63,7 @@ function Projects() {
               </div>
               <div className="flex gap-3">
                 <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
+                  href="https://chatbot-ui-ashen-delta.vercel.app/ "
                   target="_blank"
                 >
                   <h4 className="hover:underline hover:cursor-pointer ">
@@ -71,7 +71,7 @@ function Projects() {
                   </h4>
                 </a>
                 <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
+                  href="https://chatbot-ui-ashen-delta.vercel.app/"
                   target="_blank"
                 >
                   <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
@@ -81,14 +81,28 @@ function Projects() {
           </div>
           <div className="max-w-full shadow-lg shadow-black-500 h-80 relative bg-black opacity-90 rounded-t-2xl ">
             <img
-              // src={"./static/img/groupnb.JPG"}
+              src={"./static/img/crudimage.JPG"}
               alt=""
               className="h-full w-full opacity-30"
             ></img>
             <div className="flex flex-col gap-4 absolute bottom-0 left-3 px-2 pb-4 z-50 text-white ">
               <div>
-                <h5 className="font-bold">n/a</h5>
-                {/* <p>A company website built with TailwindCSS and ReactJS.</p> */}
+                <h5 className="font-bold">CRUD</h5>
+                <p>A simple crud application built with Axios.</p>
+                <div className="flex mt-3 ">
+                  <img
+                    className="h-7 hover:scale-125 transition duration-200"
+                    src={"./static/img/html.png"}
+                  />
+                  <img
+                    className="h-7 hover:scale-125 transition duration-200"
+                    src={"./static/img/css3.png"}
+                  />
+                  <img
+                    className="h-7 hover:scale-125 transition duration-200"
+                    src={"./static/img/javascriptimage.png"}
+                  />
+                </div>
               </div>
               <div className="flex gap-3">
                 <a
