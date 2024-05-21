@@ -42,7 +42,7 @@ function Projects() {
 
           <div className="max-w-full shadow-lg shadow-black-500 h-80 relative bg-black opacity-90 rounded-t-2xl ">
             <img
-              src={"./static/img/chatbot-image.jpg"}
+              src={"./src/img/chatbot-image.JPG"}        
           
               className="h-full w-full opacity-30"
             ></img>
