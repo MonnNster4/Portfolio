@@ -84,7 +84,7 @@ function Navbar(props) {
         <div>
           <motion.h1 variants={navItem}>{user.name}</motion.h1>
         </div>
-        <Breadcrumb>
+        <Breadcrumb className="hidden md:flex">
           <BreadcrumbList>
             <BreadcrumbItem
              className="hidden sm:flex"
@@ -173,13 +173,13 @@ function Navbar(props) {
                 variants={navItem}
                 className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
               >
-                <img className="h-10" src="./src/img/html.png" />
+                <img className="h-10" src="/src/img/html.png" />
               </motion.li>
               <motion.li
                 variants={navItem}
                 className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
               >
-                <img className="h-10" src="./src/img/css3.png" />
+                <img className="h-10" src="/src/img/css3.png" />
               </motion.li>
               <motion.li
                 variants={navItem}

@@ -28,20 +28,8 @@ function Projects() {
                     Visit Site
                   </h4>
                 </a>
-                <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
-                  target="_blank"
-                >
-                  <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
-                </a>
-                <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
-                  target="_blank"
-                >
-                  <h4 className="hover:underline hover:cursor-pointer ">
-                    Visit Site
-                  </h4>
-                </a>
+            
+             
                 <a
                   href="https://erp-immigration.groupnb.com.ph/ "
                   target="_blank"
@@ -54,7 +42,7 @@ function Projects() {
 
           <div className="max-w-full shadow-lg shadow-black-500 h-80 relative bg-black opacity-90 rounded-t-2xl ">
             <img
-              src="./src/img/chatbot-image.jpg"
+              src={"./static/img/chatbot-image.jpg"}
           
               className="h-full w-full opacity-30"
             ></img>
@@ -87,7 +75,7 @@ function Projects() {
           </div>
           <div className="max-w-full shadow-lg shadow-black-500 h-80 relative bg-black opacity-90 rounded-t-2xl ">
             <img
-              src={"./static/img/groupnb.JPG"}
+              // src={"./static/img/groupnb.JPG"}
               alt=""
               className="h-full w-full opacity-30"
             ></img>
@@ -111,20 +99,7 @@ function Projects() {
                 >
                   <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
                 </a>
-                <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
-                  target="_blank"
-                >
-                  <h4 className="hover:underline hover:cursor-pointer ">
-                    Visit Site
-                  </h4>
-                </a>
-                <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
-                  target="_blank"
-                >
-                  <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
-                </a>
+               
               </div>
             </div>
           </div>
