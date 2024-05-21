@@ -6,7 +6,7 @@ import Projects from "./assets/Projects/Projects";
 import Contact from "./assets/Contact/Contact";
 import Footer from "./assets/Footer/Footer";
 // import UseSwitchesCustom from "./assets/MUISwitch";
-import Navbar from "./assets/Navbar/Navbar";
+import Main from "./assets/Main/Main";
 // import Sample from "./assets/Sample/Sample";
 // import Props from "./assets/Props/Props";
 // import PropsTwo from "./assets/Props/PropsTwo";
@@ -25,7 +25,7 @@ function App() {
       {/* <Props /> 
           <PropsTwo />  */}
       {/* <Route path="/" element={<Navbar />} /> */}
-      <Navbar />
+      <Main />
 
       <About />
       <Projects />

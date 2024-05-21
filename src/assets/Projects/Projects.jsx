@@ -99,14 +99,14 @@ function Projects() {
                     src={"./static/img/css3.png"}
                   />
                   <img
-                    className="h-7 hover:scale-125 transition duration-200"
+                    className="h-[1.6rem] mt-[0.08rem] hover:scale-125 transition duration-200"
                     src={"./static/img/javascriptimage.png"}
                   />
                 </div>
               </div>
               <div className="flex gap-3">
                 <a
-                  // href="https://erp-immigration.groupnb.com.ph/ "
+                  href="https://crud-sand-mu.vercel.app/"
                   target="_blank"
                 >
                   <h4 className="hover:underline hover:cursor-pointer ">
@@ -114,7 +114,7 @@ function Projects() {
                   </h4>
                 </a>
                 <a
-                  // href="https://erp-immigration.groupnb.com.ph/ "
+                  href="https://crud-sand-mu.vercel.app/"
                   target="_blank"
                 >
                   <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />

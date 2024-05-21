@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/breadcrumb";
 
 function UseSwitchesCustom() {
-  return <Navbar defaultChecked />;
+  return <Main defaultChecked />;
 }
 
 const useStyles = (theme) => ({
@@ -36,7 +36,7 @@ const useStyles = (theme) => ({
   },
 });
 
-function Navbar(props) {
+function Main(props) {
   const { getInputProps, checked, disabled, focusVisible } = useSwitch(props);
 
   const stateClasses = {
@@ -86,21 +86,20 @@ function Navbar(props) {
         </div>
         <Breadcrumb className="hidden md:flex">
           <BreadcrumbList>
-            <BreadcrumbItem
-             className="hidden sm:flex"
-            >
+            <BreadcrumbItem className="hidden sm:flex">
               <BreadcrumbLink href="#" className="">
                 Home
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator>
               <Slash />
-            </BreadcrumbSeparator> 
-            <BreadcrumbItem activeStyle={{ color:'yellow' }}
+            </BreadcrumbSeparator>
+            <BreadcrumbItem
+              activeStyle={{ color: "yellow" }}
               // onClick={() => setActiveItemIndex(1)}
               // className={activeItemIndex === 1 ? s.highlighted : null}
             >
-              <BreadcrumbLink href="#about" >About</BreadcrumbLink>
+              <BreadcrumbLink href="#about">About</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator>
               <Slash />
@@ -160,89 +159,92 @@ function Navbar(props) {
                 <FaGithub />
                 <FaGithub />
                 <FaGithub />
-                <FaGithub />  
+                <FaGithub />
               </motion.div>
             </div>
-           <div className="lg:flex lg:flex-col lg:gap-4 lg:w-[calc(75%-2rem)] xl:w-[calc(75%-2rem)] ">
-            <div className="flex justify-center underline decoration-2 ">
-              <motion.h5 variants={navItem}>Stack</motion.h5>
-            </div>
+            <div className="lg:flex lg:flex-col lg:gap-4 lg:w-[calc(75%-2rem)] xl:w-[calc(75%-2rem)] ">
+              <div className="flex justify-center underline decoration-2 ">
+                <motion.h5 variants={navItem}>Stack</motion.h5>
+              </div>
 
-            <ul className="flex flex-wrap  sm:w-[calc(75%-1rem)]:w-full  gap-4  justify-center  text-3xl  mt-8 xl:mt-0  w-full ">
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                <img className="h-10" src={"./static/img/html.png"} />
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                <img className="h-10" src={"./static/img/css3.png"} />
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                3
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                4
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                5
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                6
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                7
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                8
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400 "
-              >
-                9
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                10
-              </motion.li>
-              <motion.li
-                variants={navItem}
-                className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-              >
-                11
-              </motion.li>
-            </ul>
-          </div>
+              <ul className="flex flex-wrap  sm:w-[calc(75%-1rem)]:w-full  gap-4  justify-center  text-3xl  mt-8 xl:mt-0  w-full ">
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  <img className="h-10" src={"./static/img/html.png"} />
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  <img className="h-10" src={"./static/img/css3.png"} />
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  <img
+                    className="h-9"
+                    src={"./static/img/javascriptimage.png"}
+                  />
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  4
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  5
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  6
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  7
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  8
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400 "
+                >
+                  9
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  10
+                </motion.li>
+                <motion.li
+                  variants={navItem}
+                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                >
+                  11
+                </motion.li>
+              </ul>
+            </div>
           </div>
 
           <div className="w-full h-auto flex justify-center lg:items-center  lg:pb-16">
             <img
               className="w-52 lg:w-72"
-              src={"./static/img/student1.png"} 
+              src={"./static/img/student1.png"}
               alt=""
             />
           </div>
