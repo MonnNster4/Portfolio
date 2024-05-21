@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 function Contact() {
   return (
     <>
-      <div className="flex flex-col gap-8 p-16">
+      <div id="contact" className="flex flex-col gap-8 p-16 xl:p-28 ">
         <div className="flex flex-col gap-8">
           <h1 className="font-semibold text-3xl uppercase">Contact</h1>
           <p className="">
