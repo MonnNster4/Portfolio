@@ -13,14 +13,15 @@ function Contact() {
           </p>
         </div>
         <div className="flex justify-start">
-          <div className="flex gap-4 justify-center items-center w-52 h-14 bg-black text-white dark:bg-slate-800 dark:text-white">
+          <div className="flex gap-4 justify-center items-center w-[200px] h-14 relative border border-black group text-black hover:text-white z-40  bg-white dark:border-white ">
             <h5 className="uppercase text-sm">Email me</h5>
-            <IoIosArrowForward />
+            <IoIosArrowForward  className="animate-pulse " />
+            <div className="absolute inset-0 -z-50 bg-black w-[10px] transition-all duration-500 ease-out group-hover:w-full dark:bg-slate-800"></div>
           </div>
         </div>
-      </div>
+      </div>  
     </>
   );
-}
+}     
 
 export default Contact;
