@@ -173,13 +173,13 @@ function Navbar(props) {
                 variants={navItem}
                 className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
               >
-                <img className="h-10" src="/src/img/html.png" />
+                <img className="h-10" src={"./static/img/html.png"} />
               </motion.li>
               <motion.li
                 variants={navItem}
                 className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
               >
-                <img className="h-10" src="/src/img/css3.png" />
+                <img className="h-10" src={"./static/img/css3.png"} />
               </motion.li>
               <motion.li
                 variants={navItem}
@@ -242,7 +242,7 @@ function Navbar(props) {
           <div className="w-full h-auto flex justify-center lg:items-center  lg:pb-16">
             <img
               className="w-52 lg:w-72"
-              src="./src/img/student1.png" 
+              src={"./static/img/student1.png"} 
               alt=""
             />
           </div>

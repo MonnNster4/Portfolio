@@ -53,11 +53,11 @@ function Projects() {
                 <div className="flex mt-3 ">
                   <img
                     className="h-7 hover:scale-125 transition duration-200"
-                    src="./src/img/html.png"
+                    src={"./static/img/html.png"}
                   />
                   <img
                     className="h-7 hover:scale-125 transition duration-200"
-                    src="./src/img/css3.png"
+                    src={"./static/img/css3.png"}
                   />
                 </div>
               </div>
