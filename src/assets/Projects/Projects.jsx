@@ -87,12 +87,12 @@ function Projects() {
             ></img>
             <div className="flex flex-col gap-4 absolute bottom-0 left-3 px-2 pb-4 z-50 text-white ">
               <div>
-                <h5 className="font-bold">ERP</h5>
-                <p>A company website built with TailwindCSS and ReactJS.</p>
+                <h5 className="font-bold">n/a</h5>
+                {/* <p>A company website built with TailwindCSS and ReactJS.</p> */}
               </div>
               <div className="flex gap-3">
                 <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
+                  // href="https://erp-immigration.groupnb.com.ph/ "
                   target="_blank"
                 >
                   <h4 className="hover:underline hover:cursor-pointer ">
@@ -100,7 +100,7 @@ function Projects() {
                   </h4>
                 </a>
                 <a
-                  href="https://erp-immigration.groupnb.com.ph/ "
+                  // href="https://erp-immigration.groupnb.com.ph/ "
                   target="_blank"
                 >
                   <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
