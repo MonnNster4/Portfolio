@@ -28,8 +28,7 @@ function Projects() {
                     Visit Site
                   </h4>
                 </a>
-            
-             
+
                 <a
                   href="https://erp-immigration.groupnb.com.ph/ "
                   target="_blank"
@@ -42,17 +41,24 @@ function Projects() {
 
           <div className="max-w-full shadow-lg shadow-black-500 h-80 relative bg-black opacity-90 rounded-t-2xl ">
             <img
-              src={"./src/img/chatbot-image.JPG"}        
-          
+              src={"./static/img/chatbotimage.JPG"}
               className="h-full w-full opacity-30"
             ></img>
             <div className="flex flex-col gap-4 absolute bottom-0 left-3 px-2 pb-4 z-50 text-white ">
               <div>
                 <h5 className="font-bold">chatbot-ui</h5>
-                <p>conversational tools that perform routine tasks efficiently.</p>
+                <p>
+                  conversational tools that perform routine tasks efficiently.
+                </p>
                 <div className="flex mt-3 ">
-                  <img className="h-7 hover:scale-125 transition duration-200" src="./src/img/html.png" />
-                  <img className="h-7 hover:scale-125 transition duration-200" src="./src/img/css3.png" />
+                  <img
+                    className="h-7 hover:scale-125 transition duration-200"
+                    src="./src/img/html.png"
+                  />
+                  <img
+                    className="h-7 hover:scale-125 transition duration-200"
+                    src="./src/img/css3.png"
+                  />
                 </div>
               </div>
               <div className="flex gap-3">
@@ -99,7 +105,6 @@ function Projects() {
                 >
                   <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
                 </a>
-               
               </div>
             </div>
           </div>
