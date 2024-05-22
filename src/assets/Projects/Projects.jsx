@@ -3,12 +3,12 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   return (
-    <div id="projects">
-      <div className="flex flex-col gap-10 bg-slate-100 p-14 dark:bg-slate-900 dark:text-white xl:p-56 ">
-        <div className="">
-          <h1 className="text-3xl font-semibold uppercase">Projects</h1>
-        </div>
-        <div className="flex flex-col gap-10 lg:gap-10 lg:items-center lg:grid lg:grid-cols-2 ">
+    <div className="dark:bg-slate-900 bg-slate-100  dark:text-white">
+      <div id="projects" className="py-56 mx-auto max-w-[1200px]">
+        <div className="flex flex-col gap-8  px-14">
+        <h1 className="text-3xl font-semibold uppercase">Projects</h1>
+
+        <div className=" lg:gap-10 lg:items-center lg:grid lg:grid-cols-2 flex flex-col gap-8">
           <div className="max-w-full shadow-lg shadow-black-500 h-80 relative bg-black opacity-90 rounded-t-2xl ">
             <img
               src={"./static/img/groupnb.JPG"}
@@ -105,23 +105,18 @@ function Projects() {
                 </div>
               </div>
               <div className="flex gap-3">
-                <a
-                  href="https://crud-sand-mu.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://crud-sand-mu.vercel.app/" target="_blank">
                   <h4 className="hover:underline hover:cursor-pointer ">
                     Visit Site
                   </h4>
                 </a>
-                <a
-                  href="https://crud-sand-mu.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://crud-sand-mu.vercel.app/" target="_blank">
                   <FaExternalLinkAlt className="mt-1 hover:scale-125 transition duration-200 hover:cursor-pointer" />
                 </a>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

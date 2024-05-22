@@ -5,8 +5,8 @@ import { FramerContainer, navItem } from "../FramerMotion/NavAnimation";
 function About() {
   return (
     <>
-      <div id="about" className='xl:p-40'>
-        <div  className="flex flex-col gap-5 px-14 pt-24 ">
+      <div id="about" className='py-40 mx-auto  max-w-[1200px]'>
+        <div  className="flex flex-col gap-10 px-14 ">
           {/* <div>
           <img
             className="flex justify-center m-auto w-32 "
@@ -64,9 +64,7 @@ function About() {
             exploring job opportunities that can facilitate my growth as a
             front-end developer.
           </p>
-        </div>
-        <div>
-          <p className="px-14 py-16  leading-10">
+          <p className=" leading-10">
             I'm currently focused on tasks like connecting APIs, using React
             Hooks, and developing the back-end. Furthermore, for front-end
             development, I consistently aim to stay updated with the latest
@@ -74,6 +72,7 @@ function About() {
             chai and Redux for state management in React.
           </p>
         </div>
+       
       </div>
     </>
   );

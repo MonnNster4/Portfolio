@@ -133,123 +133,125 @@ function Main(props) {
         </motion.div>
       </motion.div>
 
-      <motion.div
-        variants={FramerContainer}
-        initial="hidden"
-        animate="visible"
-        className="flex justify-center lg:max-w bg-slate-100 dark:bg-slate-900 dark:text-white "
-      >
-        <div className="xl:max-w-screen-xl  lg:flex py-20">
-          <div className="lg:max-w-xl">
-            <div className="flex flex-col p-16 gap-4">
-              <motion.h1 variants={navItem} className="font-bold text-2xl">
-                YNW Melly
-              </motion.h1>
-              <motion.h5 variants={navItem} className="">
-                Rapper Artist
-              </motion.h5>
-              <motion.p variants={navItem} className="leading-8">
-                Jamell Maurice Demons, known professionally as YNW Melly, is an
-                American rapper and singer from Gifford, Florida. He rose to
-                fame in 2018 following the commercial release of his single
-                "Murder on My Mind", a trap song which explores homicidal
-                ideation.
-              </motion.p>
-              <motion.div variants={navItem} className="flex gap-4">
-                <FaGithub />
-                <FaGithub />
-                <FaGithub />
-                <FaGithub />
-              </motion.div>
-            </div>
-            <div className="lg:flex lg:flex-col lg:gap-4 lg:w-[calc(75%-2rem)] xl:w-[calc(75%-2rem)] ">
-              <div className="flex justify-center underline decoration-2 ">
-                <motion.h5 variants={navItem}>Stack</motion.h5>
+      <div className="  dark:bg-slate-900  dark:text-white bg-slate-100   ">
+        <motion.div
+          variants={FramerContainer}
+          initial="hidden"
+          animate="visible"
+          className="flex justify-center  mx-auto  max-w-[1200px]  "
+        >
+          <div className="  lg:flex py-20">
+            <div className="lg:max-w-xl">
+              <div className="flex flex-col p-16 gap-4">
+                <motion.h1 variants={navItem} className="font-bold text-2xl">
+                  YNW Melly
+                </motion.h1>
+                <motion.h5 variants={navItem} className="">
+                  Rapper Artist
+                </motion.h5>
+                <motion.p variants={navItem} className="leading-8">
+                  Jamell Maurice Demons, known professionally as YNW Melly, is
+                  an American rapper and singer from Gifford, Florida. He rose
+                  to fame in 2018 following the commercial release of his single
+                  "Murder on My Mind", a trap song which explores homicidal
+                  ideation.
+                </motion.p>
+                <motion.div variants={navItem} className="flex gap-4">
+                  <FaGithub />
+                  <FaGithub />
+                  <FaGithub />
+                  <FaGithub />
+                </motion.div>
               </div>
+              <div className="lg:flex lg:flex-col lg:gap-4 lg:w-[calc(75%-2rem)] xl:w-[36rem] ">
+                <div className="flex justify-center underline decoration-2 mb-8 ">
+                  <motion.h5 variants={navItem}>Stack</motion.h5>
+                </div>
 
-              <ul className="flex flex-wrap  sm:w-[calc(75%-1rem)]:w-full  gap-4  justify-center  text-3xl  mt-8 xl:mt-0  w-full ">
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  <img className="h-10" src={"./static/img/html.png"} />
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  <img className="h-10" src={"./static/img/css3.png"} />
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  <img
-                    className="h-9"
-                    src={"./static/img/javascriptimage.png"}
-                  />
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  4
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  5
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  6
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  7
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  8
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400 "
-                >
-                  9
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  10
-                </motion.li>
-                <motion.li
-                  variants={navItem}
-                  className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
-                >
-                  11
-                </motion.li>
-              </ul>
+                <ul className="flex flex-wrap  sm:w-[calc(75%-1rem)]:w-full  gap-4  justify-center  text-3xl   xl:mt-0  w-full px-14">
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    <img className="h-10" src={"./static/img/html.png"} />
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    <img className="h-10" src={"./static/img/css3.png"} />
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    <img
+                      className="h-9"
+                      src={"./static/img/javascriptimage.png"}
+                    />
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    4
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    5
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    6
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    7
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    8
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400 "
+                  >
+                    9
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    10
+                  </motion.li>
+                  <motion.li
+                    variants={navItem}
+                    className="h-12 w-12 md:h-15 md:w-15 bg-white rounded-full items-center flex justify-center shadow-md hover:scale-125 transition duration-200 cursor-pointer text-orange-400"
+                  >
+                    11
+                  </motion.li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full h-auto flex justify-center lg:items-center  ">
+              <img
+                className="w-52 lg:w-72"
+                src={"./static/img/student1.png"}
+                alt=""
+              />
             </div>
           </div>
-
-          <div className="w-full h-auto flex justify-center lg:items-center  lg:pb-16">
-            <img
-              className="w-52 lg:w-72"
-              src={"./static/img/student1.png"}
-              alt=""
-            />
-          </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </>
   );
 }

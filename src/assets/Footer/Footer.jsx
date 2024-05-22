@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="dark:bg-slate-900  text-black dark:text-white bg-slate-100">
       <div className="max-[425px]:w-[320px] sm:max-w-2xl lg:max-w-screen-lg xl:max-w-screen-xl m-auto py-20">
-        <div className="flex flex-col-reverse items-center justify-center  gap-8 lg:flex-row-reverse lg:justify-around xl:justify-between">
+        <div className="flex flex-col-reverse items-center justify-center  gap-8 lg:flex-row-reverse lg:justify-around xl:justify-between px-8">
 
           
           <h1 className="font-light text-sm md:text-base ">
