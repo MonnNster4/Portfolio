@@ -87,7 +87,7 @@ function Projects() {
             ></img>
             <div className="flex flex-col gap-4 absolute bottom-0 left-3 px-2 pb-4 z-50 text-white ">
               <div>
-                <h5 className="font-bold">CRUD</h5>
+                <h5 className="font-bold">simple CRUD</h5>
                 <p>A simple crud application built with Axios.</p>
                 <div className="flex mt-3 ">
                   <img
